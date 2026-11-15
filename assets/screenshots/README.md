@@ -1,15 +1,27 @@
 # LUNA-SCOPE application screenshots
 
-This folder is reserved for genuine captures of the implemented LUNA-SCOPE interface.
+The five original captures supplied for the submission gallery cover the following parts of the application. Keep the file names below when adding the images so the gallery links remain stable.
 
-Recommended gallery sequence:
+| File | Capture | Description |
+|---|---|---|
+| `01-global-lunar-survey.png` | Global survey | Interactive lunar globe and global survey workspace |
+| `02-south-polar-region.png` | South-polar region | Regional view of the candidate landing area |
+| `03-terrain-elevation.png` | Terrain elevation | 3D elevation surface for Shackleton Rim — Site 04 |
+| `04-terrain-aspect-metrics.png` | Terrain metrics | Aspect layer and terrain-analysis controls |
+| `05-celestial-geometry.png` | Celestial geometry | Celestial Geometry Observatory showing local-horizon geometry for Sun and Earth |
 
-1. `01-lunar-explorer.png` — main lunar exploration workspace and selected site.
-2. `02-terrain-analysis.png` — terrain layers, slope/roughness or hazard inspection.
-3. `03-solar-observatory.png` — Sun geometry and local illumination analysis.
-4. `04-earth-visibility.png` — Earth visibility and communication analysis.
-5. `05-mission-timeline.png` — time-dependent mission/environmental view.
-6. `06-site-comparison.png` — candidate-site comparison or assessment.
+## Gallery
 
-Only actual application screenshots should be added. Do not place mockups, synthetic renderings, or unrelated figures here while labelling them as application captures.
+The image files are to be committed using the exact names in the table above. Once present, the gallery can be previewed here:
+
+```text
+assets/screenshots/
+├── 01-global-lunar-survey.png
+├── 02-south-polar-region.png
+├── 03-terrain-elevation.png
+├── 04-terrain-aspect-metrics.png
+└── 05-celestial-geometry.png
+```
+
+These are application captures supplied by the project team, not generated mockups. The screenshots show interface views; they do not independently verify every calculation or analysis workflow.
 
