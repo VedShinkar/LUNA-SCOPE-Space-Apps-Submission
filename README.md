@@ -10,7 +10,7 @@ LUNA-SCOPE is a lunar landing-site analysis and decision-support application des
 
 | Submission item | Link |
 |---|---|
-| **Demonstration video** | _Video link will be added here_ |
+| **Demonstration video** | [Watch the LUNA-SCOPE demo on YouTube](https://youtu.be/1WInFyLfS4M) |
 | **Project presentation** | _PPT/PDF will be added here_ |
 | Application source code | [LUNA-SCOPE source repository](https://github.com/VedShinkar/LUNA-SCOPE) |
 | Technical overview | [Project overview](documentation/PROJECT-OVERVIEW.md) |
@@ -92,4 +92,4 @@ For implementation details, setup instructions, code, tests, and ongoing develop
 
 ---
 
-*Submission media will be added when the final presentation and hosted demonstration video are supplied.*
+*The demonstration video is published on YouTube. The final presentation files will be added to `presentation/`.*
