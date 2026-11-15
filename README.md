@@ -1,64 +1,65 @@
 # LUNA-SCOPE — Lunar Landing Site Navigator
 
-**NASA Space Apps Challenge 2026 | Project submission**
+**NASA Space Apps Challenge 2026 | Team VayuTej**
 
-LUNA-SCOPE is a lunar landing-site analysis and decision-support application designed to help evaluate candidate locations near the lunar south pole. It brings terrain context, solar illumination, Earth visibility, mission timelines, and comparative assessment into a single exploration workflow.
+LUNA-SCOPE (Lunar Unified Navigation, Analysis & Site Optimization) is an interactive lunar exploration and decision-support platform designed to help users explore and compare lunar south-polar landing-site candidates. It brings terrain, celestial geometry and mission-level analysis into one environment.
 
-> This repository is the public-facing **submission hub** for judges and reviewers. The application source code remains in the main project repository: [VedShinkar/LUNA-SCOPE](https://github.com/VedShinkar/LUNA-SCOPE).
+> This public repository is the submission hub for judges and reviewers. The application source code remains in the main project repository: [VedShinkar/LUNA-SCOPE](https://github.com/VedShinkar/LUNA-SCOPE).
 
 ## Judge quick links
 
-| Submission item | Link |
+| Submission item | Link / status |
 |---|---|
-| **Demonstration video** | [Watch the LUNA-SCOPE demo on YouTube](https://youtu.be/1WInFyLfS4M) |
-| **Project presentation** | [PDF](presentation/LUNA-SCOPE_NASA-SpaceApps-2026.pdf) · [PowerPoint](presentation/LUNA-SCOPE_NASA-SpaceApps-2026.pptx) — upload to repository pending |
+| **Demonstration video** | [Watch LUNA-SCOPE on YouTube](https://youtu.be/1WInFyLfS4M) |
+| **Project presentation** | Final 7-page PDF and editable PowerPoint prepared; binary upload to this repository is pending |
 | Application source code | [LUNA-SCOPE source repository](https://github.com/VedShinkar/LUNA-SCOPE) |
 | Technical overview | [Project overview](documentation/PROJECT-OVERVIEW.md) |
 | System architecture | [System architecture](documentation/SYSTEM-ARCHITECTURE.md) |
 | Technical highlights | [Technical highlights](documentation/TECHNICAL-HIGHLIGHTS.md) |
 | Scientific data provenance | [Data sources and references](scientific-references/DATA-SOURCES.md) |
+| YouTube description | [Demonstration page](demonstration/README.md) |
 
-## What LUNA-SCOPE does
+## The problem
 
-Lunar landing-site selection is a multi-factor problem. A candidate site needs terrain that can support a safe landing and surface operations, useful periods of sunlight for power, and viable communication opportunities with Earth.
+Choosing a lunar landing site is more than finding flat ground. Four factors interact, and they change with location and time:
 
-LUNA-SCOPE organizes these questions into a connected workflow:
+1. **Terrain** — elevation, slope, roughness and preliminary hazards.
+2. **Solar access** — when sunlight may reach a candidate site.
+3. **Earth communication** — where Earth sits, and when it may be seen.
+4. **Mission feasibility** — mission profiles and equipment assumptions.
 
-1. **Explore candidate regions** using lunar terrain context and elevation-derived analysis.
-2. **Inspect terrain conditions** through slope, aspect, roughness, hazard, and uncertainty layers where available.
-3. **Evaluate solar geometry** and local illumination, including terrain-horizon effects.
-4. **Evaluate Earth visibility** and communication opportunities, including antenna elevation constraints.
-5. **Review mission timelines** to understand how environmental conditions change over time.
-6. **Compare candidate sites** and assess mission suitability using configurable criteria.
+## LUNA-SCOPE workflow
 
-## Candidate sites represented in the current application
+1. Select a lunar candidate site.
+2. Explore the terrain using 3D relief and terrain-analysis layers.
+3. Analyze Sun and Earth geometry relative to the local horizon.
+4. Examine operational windows with solar illumination, Earth visibility and operations timeline views.
+5. Compare mission scenarios using Mission Intelligence and scenario comparison.
 
-The application configuration and technical verification records identify these candidate areas:
+## Candidate regions
 
-- **Shackleton region** — Site04
-- **de Gerlache region** — Site11
-- **Malapert region** — Site23
+| Candidate region | Site ID |
+|---|---|
+| Shackleton Rim | Site 04 |
+| de Gerlache Rim | Site 11 |
+| Malapert Massif | Site 23 |
 
-The current terrain inspection and high-resolution LOLA processing evidence specifically documents Site04. Do not interpret every layer or numerical result as equally validated across all sites; consult the technical documentation and source repository for dataset details.
+**Data coverage is not identical across regions.** The high-resolution terrain inspection evidence is specifically documented for Site 04 (Shackleton Rim); consult the source repository and data catalogue for per-region coverage.
+
+## Scientific data and technology
+
+- NASA Lunar Orbiter Laser Altimeter (LOLA) regional elevation products.
+- NASA/JPL SPICE via NAIF for celestial geometry.
+- NASA/JPL Horizons for ephemeris queries and reference checks.
+- Python, FastAPI, React, TypeScript and SpiceyPy.
+
+The project distinguishes source NASA products, locally processed data, synthetic test fixtures and modelled outputs. Some illustrative mission assessments use synthetic fixtures; these are not NASA-derived rankings, validated landing probabilities or certified mission assessments.
 
 ## Application screenshots
 
-Selected interface screenshots will be placed in [assets/screenshots](assets/screenshots/README.md). The gallery documentation identifies the recommended order and content.
+The gallery index and target file names are documented in [assets/screenshots](assets/screenshots/README.md). The original screenshots and the YouTube thumbnail are also included in the downloadable [submission media bundle](https://github.com/VedShinkar/LUNA-SCOPE-Space-Apps-Submission) once the binary assets have been committed.
 
-## Scientific integrity and limitations
-
-- NASA LOLA terrain products are used for the documented terrain workflow. Dataset products and processing details are listed in [DATA-SOURCES.md](scientific-references/DATA-SOURCES.md).
-- The celestial geometry subsystem uses NASA/JPL NAIF SPICE kernels and is designed with Horizons comparison/validation support.
-- Offline synthetic fixtures and test data are not NASA observations. They must be labelled as synthetic wherever shown.
-- Horizons comparison tests or a benchmark catalogue do not, by themselves, establish that a live NASA Horizons capture has been completed.
-- Mission-scoring outputs depend on configured criteria, thresholds, and available input data. They are decision-support aids, not certified landing-safety determinations.
-- Browser-level manual verification and the current status of optional Copilot functionality must be checked against the latest source repository before being claimed as completed.
-
-See [Technical highlights](documentation/TECHNICAL-HIGHLIGHTS.md) for a status-aware description.
-
-## Team
-
-LUNA-SCOPE is developed by a three-member team:
+## Team VayuTej
 
 - Ved Shinkar
 - Anushka Jadhav
@@ -86,10 +87,10 @@ LUNA-SCOPE is developed by a three-member team:
 
 ## Main source repository
 
-For implementation details, setup instructions, code, tests, and ongoing development, visit:
+For implementation details, code, tests and development history, visit:
 
 **[https://github.com/VedShinkar/LUNA-SCOPE](https://github.com/VedShinkar/LUNA-SCOPE)**
 
 ---
 
-*The demonstration video is published on YouTube. The final presentation files will be added to `presentation/`.*
+*The demo is published on YouTube. The final PDF, PowerPoint, application screenshots and YouTube thumbnail are prepared in the submission media bundle; their binary upload to this repository remains pending.*
