@@ -6,20 +6,20 @@
 
 ## Video link
 
-**Status:** The final video URL will be added when the YouTube upload is published.
+**Published video:** [Watch on YouTube](https://youtu.be/1WInFyLfS4M)
 
-## Suggested YouTube description
+## YouTube description
 
-LUNA-SCOPE is an interactive lunar exploration and decision-support platform designed to investigate candidate landing regions near the lunar south pole. It combines lunar terrain analysis, solar illumination, celestial geometry, and Earth-communication visibility in one connected environment.
+LUNA-SCOPE (Lunar Unified Navigation, Analysis & Site Optimization) is an interactive lunar exploration and decision-support platform designed to help explore and compare lunar south-polar landing-site candidates. It brings terrain, celestial geometry, and mission-level analysis into one environment.
 
 The demonstration covers:
 
 1. **Global Lunar Survey** — an interactive 3D view of the Moon and navigation toward the south-polar region.
 2. **Landing-Site Navigation** — candidate regions including Shackleton Rim (Site 04), de Gerlache (Site 11), and Malapert (Site 23).
-3. **3D Terrain Analysis** — elevation-based terrain visualization and a 3D surface model.
-4. **Terrain Metrics** — elevation, slope, aspect, and roughness layers where available.
-5. **Celestial Geometry** — Sun and Earth positions relative to the local lunar horizon.
-6. **Mission-Oriented Analysis** — a connected workflow for investigating terrain, illumination, communication visibility, and time-dependent mission conditions.
+3. **3D Terrain Analysis** — inspect elevation-based terrain visualization and the Shackleton Rim surface model.
+4. **Terrain Metrics** — inspect elevation, slope, aspect, roughness, data-quality/uncertainty, and preliminary hazard-screening layers where available.
+5. **Celestial Geometry** — examine Sun and Earth positions relative to the local lunar horizon.
+6. **Mission-Oriented Analysis** — examine solar access, Earth visibility, operations timelines, mission profiles, equipment assumptions, and candidate-site comparisons.
 
 ### Scientific data and technology
 
@@ -39,7 +39,7 @@ Synthetic test fixtures and simulated outputs are distinguished from source NASA
 
 ### Team
 
-Ved Shinkar • Anushka • Mahati
+**Team VayuTej** — Ved Shinkar • Anushka Jadhav • Mahathi Tippavajhula
 
 ### Goal
 
