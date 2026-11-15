@@ -8,16 +8,16 @@ LUNA-SCOPE (Lunar Unified Navigation, Analysis & Site Optimization) is an intera
 
 ## Judge quick links
 
-| Submission item | Link / status |
+| Submission item | Link |
 |---|---|
 | **Demonstration video** | [Watch LUNA-SCOPE on YouTube](https://youtu.be/1WInFyLfS4M) |
-| **Project presentation** | Final 7-page PDF and editable PowerPoint prepared; binary upload to this repository is pending |
+| **Presentation PDF** | [Download the 7-page presentation](https://github.com/VedShinkar/LUNA-SCOPE-Space-Apps-Submission/raw/refs/heads/main/presentation/LUNA-SCOPE_NASA-SpaceApps-2026.pdf) |
+| **Editable PowerPoint** | [Download the PPTX](https://github.com/VedShinkar/LUNA-SCOPE-Space-Apps-Submission/raw/refs/heads/main/presentation/LUNA-SCOPE_NASA-SpaceApps-2026.pptx) |
 | Application source code | [LUNA-SCOPE source repository](https://github.com/VedShinkar/LUNA-SCOPE) |
 | Technical overview | [Project overview](documentation/PROJECT-OVERVIEW.md) |
 | System architecture | [System architecture](documentation/SYSTEM-ARCHITECTURE.md) |
 | Technical highlights | [Technical highlights](documentation/TECHNICAL-HIGHLIGHTS.md) |
 | Scientific data provenance | [Data sources and references](scientific-references/DATA-SOURCES.md) |
-| YouTube description | [Demonstration page](demonstration/README.md) |
 
 ## The problem
 
@@ -53,11 +53,11 @@ Choosing a lunar landing site is more than finding flat ground. Four factors int
 - NASA/JPL Horizons for ephemeris queries and reference checks.
 - Python, FastAPI, React, TypeScript and SpiceyPy.
 
-The project distinguishes source NASA products, locally processed data, synthetic test fixtures and modelled outputs. Some illustrative mission assessments use synthetic fixtures; these are not NASA-derived rankings, validated landing probabilities or certified mission assessments.
+The project distinguishes source NASA products, locally processed data, synthetic test fixtures and modelled outputs. Some illustrative mission assessments use synthetic fixtures; these are not NASA-derived rankings, validated landing probabilities, or certified mission assessments.
 
 ## Application screenshots
 
-The gallery index and target file names are documented in [assets/screenshots](assets/screenshots/README.md). The original screenshots and the YouTube thumbnail are also included in the downloadable [submission media bundle](https://github.com/VedShinkar/LUNA-SCOPE-Space-Apps-Submission) once the binary assets have been committed.
+Browse the [five application screenshots](assets/screenshots/README.md) or open the [screenshots folder](assets/screenshots/).
 
 ## Team VayuTej
 
@@ -65,32 +65,8 @@ The gallery index and target file names are documented in [assets/screenshots](a
 - Anushka Jadhav
 - Mahathi Tippavajhula
 
-## Repository contents
-
-```text
-.
-├── README.md
-├── presentation/
-│   └── README.md
-├── demonstration/
-│   └── README.md
-├── scientific-references/
-│   └── DATA-SOURCES.md
-├── documentation/
-│   ├── PROJECT-OVERVIEW.md
-│   ├── SYSTEM-ARCHITECTURE.md
-│   └── TECHNICAL-HIGHLIGHTS.md
-└── assets/
-    └── screenshots/
-        └── README.md
-```
-
 ## Main source repository
 
 For implementation details, code, tests and development history, visit:
 
 **[https://github.com/VedShinkar/LUNA-SCOPE](https://github.com/VedShinkar/LUNA-SCOPE)**
-
----
-
-*The demo is published on YouTube. The final PDF, PowerPoint, application screenshots and YouTube thumbnail are prepared in the submission media bundle; their binary upload to this repository remains pending.*
